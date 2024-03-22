@@ -2,11 +2,54 @@
 <html>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 <style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
 .mac-os-11 { --title-bar-height: 28px; }
-html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
-body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.428571; overflow-x: hidden; background: inherit; tab-size: 4; }
+@font-face {
+  font-family: 'Latin Modern Roman';
+  src: url('./fonts/lmroman7-regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Latin Modern Roman';
+  src: url('./fonts/lmroman7-italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Latin Modern Roman';
+  src: url('./fonts/lmroman7-bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LMRoman10-Bold";
+  src: url('./fonts/lmroman7-bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "宋体-简";
+  src: url('./fonts/songti-jian.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+html { font-size: 14px; 
+  background-color: var(--bg-color); 
+  color: var(--text-color); 
+  font-family: 'Latin Modern Roman', "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  -webkit-font-smoothing: antialiased; }
+body { margin: 0px; 
+  padding: 0px; 
+  height: auto; 
+  inset: 0px; 
+  font-size: 1rem; 
+  line-height: 1.428571; 
+  overflow-x: hidden; 
+  background: inherit; 
+  tab-size: 4; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
 a:active, a:hover { outline: 0px; }
@@ -45,7 +88,8 @@ h6 { font-size: 1rem; }
 .md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
 .hidden { display: none; }
 .md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
-a { cursor: pointer; }
+a { cursor: pointer; 
+  text-decoration: none; }
 sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
 sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
 #write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
@@ -781,15 +825,19 @@ h6.md-focus:before {
 </style><title>Webslides | Zhen Huang</title>
 </head>
 <body class='typora-export'><div class='typora-export-content'>
-<div id='write'  class=''><center><img src="./banner.png" width="60%"></center><h1 id='公开在线网页幻灯片'><span>公开在线网页幻灯片</span></h1><h1 id='public-web-slides'><span>Public WEB Slides</span></h1><center>黄振 Zhen Huang</center><p>&nbsp;</p><center><a href="https://zhenhuang.site"><img alt="Home" src="https://img.shields.io/badge/Home-zhenhuang.site-red?link=https%3A%2F%2Fzhenhuang.site"></a> <a href="https://github.com/ZhenHuangLab"><img alt="Github" src="https://img.shields.io/badge/ZhenHuangLab-black?logo=github&amp;link=https%3A%2F%2Fgithub.com%2Fzhenhuanglab"></a> <a href="https://webslides.zhenhuang.site"><img alt="Webslides" src="https://img.shields.io/badge/WebSlides-yellow?logo=slideshare&amp;logoColor=white&amp;link=https%3A%2F%2Fwebslides.zhenhuang.site"></a> <a href="https://kirastar.zhenhuang.site"><img alt="kirastar" src="https://img.shields.io/badge/KiraStar-blue?logo=electronbuilder&amp;logoColor=white&amp;link=https%3A%2F%2Fkirastar.zhenhuang.site"></a> <a href="https://space.bilibili.com/37168500"><img alt="bilibili" src="https://img.shields.io/badge/%E5%B0%8F%E6%8C%AFVICTOR-pink?logo=bilibili&amp;logoColor=blue&amp;link=https%3A%2F%2Fspace.bilibili.com%2F37168500"></a></center><hr /><p>&nbsp;</p>
+<div id='write'  class=''><center><img src="./banner.png" width="60%"></center><h1 id='公开在线网页幻灯片'><span>公开在线网页幻灯片</span></h1><h1 id='public-web-slides'><span>Public WEB Slides</span></h1><center><a href="https://zhenhuang.site">黄振 Zhen Huang</a></center><p>&nbsp;</p><center><a href="https://zhenhuang.site"><img alt="Home" src="https://img.shields.io/badge/Home-zhenhuang.site-red?link=https%3A%2F%2Fzhenhuang.site"></a> <a href="https://github.com/ZhenHuangLab"><img alt="Github" src="https://img.shields.io/badge/ZhenHuangLab-black?logo=github&amp;link=https%3A%2F%2Fgithub.com%2Fzhenhuanglab"></a> <a href="https://webslides.zhenhuang.site"><img alt="Webslides" src="https://img.shields.io/badge/WebSlides-yellow?logo=slideshare&amp;logoColor=white&amp;link=https%3A%2F%2Fwebslides.zhenhuang.site"></a> <a href="https://kirastar.zhenhuang.site"><img alt="kirastar" src="https://img.shields.io/badge/KiraStar-blue?logo=electronbuilder&amp;logoColor=white&amp;link=https%3A%2F%2Fkirastar.zhenhuang.site"></a> <a href="https://space.bilibili.com/37168500"><img alt="bilibili" src="https://img.shields.io/badge/%E5%B0%8F%E6%8C%AFVICTOR-pink?logo=bilibili&amp;logoColor=blue&amp;link=https%3A%2F%2Fspace.bilibili.com%2F37168500"></a></center><hr /><p>&nbsp;</p>
     <figure>
         <table><thead><tr><th><span>标题 Title</span></th><th><span>时间 Time</span></th><th><span>附链 Links</span></th><th><span>标签 Tags</span></th></tr></thead>
             <tbody>
                 <tr><td><a href='./zjucab-expshare/'><span>浙江大学农学院2020级本科生年级大会暨就业经验分享-出国出境</span></a></td><td><span>2023/12/21</span></td><td><span><a href="./zjucab-expshare/Expshare-ZJUCAB-zhen-2023_12.pdf">[PDF]</a></span></td><td><span>经验分享</span></td></tr>
-                <tr><td><a href='./self-intro/'><span>Self-introduction自我介绍</span></a></td><td><span>2024/03/05</span></td><td><span>...</span></td><td><span>自我介绍</span></td></tr>
+                <tr><td><a href='./self-intro/'><span>Self-introduction自我介绍</span></a></td><td><span>2024/03/05</span></td><td><span>\</span></td><td><span>自我介绍</span></td></tr>
                 <tr><td><span>...</span></td><td><span>...</span></td><td><span>...</span></td><td><span>...</span></td></tr>
             </tbody>
         </table>
     </figure>
-    <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><center>Site still in progress...<br>其他幻灯片正在补充中...</center><center>Copyright ©️ 2023 <a href="https://github.com/zhenhuanglab">Zhen Huang</a></center><center><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"></a></center></div></div>
+    <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><center>Site still in progress...<br>其他幻灯片正在补充中...</center>
+    
+    <center><span id="busuanzi_container_site_pv">总访问量：<span id="busuanzi_value_site_pv"></span> views</span></center>
+    <center>Copyright ©️ 2024 <a href="https://github.com/zhenhuanglab">Zhen Huang</a></center>
+    <center><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"></a></center></div></div>
 </body>
