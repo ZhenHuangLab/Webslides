@@ -1,0 +1,10 @@
+{
+  "transition": "slide",
+  "transitionSpeed": "fast",
+  "center": false,
+  "slideNumber": "c/t",
+  "width": 1000,
+  "history": true,
+  "progress": true,
+  "controls": true
+}
